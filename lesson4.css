@@ -1,0 +1,21 @@
+body{
+    background-color: purple;
+}
+
+.container{
+    height: 125px;
+    width: 270px;
+    background-color: red;
+}
+
+.container>.first{
+    color:white;
+    text-align: center;
+}
+
+
+
+.container ~p{
+    color:yellow;
+    font-family: monospace,'Times New Roman';
+}
